@@ -1,10 +1,176 @@
+"""
+    Function definition
+"""
+
+
+def test(a,myList = None):
+    if myList is None:
+        myList = []
+    myList.append(a)
+    return myList     
+    
+#print test(1)
+print test(2)        
+
+
+# def test(a,myList = None):
+     
+#      print myList
+#      if myList is None:
+#          myList = []
+#      myList.append(a)
+#      return myList   
+
+# print test(1)
+# print test(2)
+# print test(3)
+
+
+
+# i = 6
+# def test(arg = i):
+#     return arg
+
+# i = 5
+# print test()    
+
+
+# i = 5
+
+# def test(arg = i):
+#     arg = arg + 1
+#     return arg
+
+# print test()
+# print i
+
+# def g(a,L=[]):
+# #    print "L::", L
+#     L.append(a)
+#     return L
+
+# g(1)
+# g(2)
+# print g(6)
+
+
+# i = 5
+# def f(arg = i):
+#     print arg
+# i = 6
+# f(i) 
+
+# def ask_ok(prompt,retries=4,complaint="yes or no"):
+#     while True:
+#         x = raw_input(prompt)
+#         if x in ('y','yes'):
+#             return True
+#         if x in ('n','no'):
+#             return False
+#         retries = retries - 1
+#         if retries<=0:
+#             raise IOError("Refused")
+#         print complaint
+# ask_ok('Do you want to')
+
+
+# def ask_ok(prompt,retries=4,complaint="yes or no"):
+#     while True:
+#         x = raw_input(prompt)
+#         if x in ('y','yes','ye'):
+#             return True
+#         if x in ('n','no','nope'):
+#             return False
+#         retries = retries-1
+#         if retries<0:
+#             raise IOError("Refused")
+#         print complaint
+
+# # ask_ok('Do You')
+# ask_ok('Do You',2,'cancel')        
+            
+
+
+# str = "dsadada"
+# if 'a' in str:
+#     print "hello world"
+
+# list = ['s','a']
+
+# if 'a' in list:
+#     print "Gone  case"
 
 
 
 # def fib(n):
 #     result = []
 #     a,b = 0,1
-#     while a<n:
+#     while b<n:
+#         result.append(b)
+#         a,b = b,a+b
+#     return result
+
+# resCall = fib(1000)
+# print resCall
+
+# def ask_ok(prompt,retries=4,complaint="yes or no please!!"):
+#     while True:
+#         ok = raw_input(prompt)
+#         if ok in ('y','ye','yes'):
+#             return True
+#         if ok in ('n','no','nope'):
+#             return False
+#         retries = retries - 1
+#         if  retries<0:
+#             raise IOError('refuse error')
+#         print complaint
+
+# ask_ok('Enter:::')
+
+
+# def add_two_no(a=10,b=20):
+#     return a+b
+
+# print  add_two_no()
+
+
+
+
+# def fibonacci(n):
+#     """ Program to calculate fibonacci series"""
+#     result = []
+#     a,b = 0,1
+#     while b<n:
+#         result.append(b)
+#         a,b = b,a+b
+#     return result
+
+# print fibonacci(2000)
+
+
+#0112358
+
+
+# def fibonacci(n):
+#     result  = []
+#     a,b = 0,1
+#     while b<n:
+#         result.append(b)
+#         a,b = b,a+b
+#     return result
+
+# f = fibonacci(200)
+
+# print f    
+
+
+
+
+
+# def fib(n):
+#     result = []
+#     a,b = 0,1
+#     while a<n:i
 #         print a
 #         result.append(a)
 #         a,b = b,a+b

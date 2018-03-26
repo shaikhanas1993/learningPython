@@ -1,16 +1,124 @@
 """
     Function definition
+    *name (Formal Parameter) receives a tuple
+    **name (Final Formal Parameter) receives a dictionary
+    *name must appear before **name
+    lambda's are syntactic sugar for inner functions
 """
+# def mySorter(x = None):
+#     print x[2]
+#     return x
 
+def mysort(x):
+    # print x
+    return x[1]
+pairs = [(1,'one'),(2,'two'),(3,'three'),(4,'four')]
+pairs.sort(key=lambda x:x[1])
+print pairs
 
-def test(a,myList = None):
-    if myList is None:
-        myList = []
-    myList.append(a)
-    return myList     
+  
     
-#print test(1)
-print test(2)        
+
+# student_tuples = [
+#         ('john', 'A', 15),
+#         ('jane', 'B', 12),
+#         ('dave', 'B', 10),
+# ]
+
+# student_tuples.sort(key=lambda x:x[2])
+# print student_tuples
+
+
+#Lambda Expressions
+# def make_increment(n):
+#     return lambda x:x+n
+# f =  make_increment(10)
+# print f(1)
+
+# def func(n):
+#     return lambda a,b:a+b+n
+
+# f = func(10)
+# print f(1,1)
+
+
+
+#unpacking arguments List
+
+
+# def func(a,b,c):
+#     print "a::",a
+#     print "b::",b
+#     print "c::",c
+# myTuple =  ('asd','bss','css')
+# func(*myTuple)
+
+
+# def func(a,b,c):
+#     print "========="
+#     print "a ::" + a
+#     print "========="
+#     print "b ::" + b
+#     print "========="
+#     print "c ::" + c
+
+# dic = {'a':'a','b':'b','c':'c'}
+# func(**dic)
+
+
+# def test(*args):
+#     print args
+
+# test('sadasd','adad','dadad')    
+
+# def shop(*tup,**dic):
+#     for item in tup[:]:
+#         print item
+#     dic = dic.values()  
+#     print dic
+#     # for key in dic:
+#     #     print dic[key]    
+
+# shop("dadad",'sdadada',name='ans',value=10)    
+
+
+# def cheeseShop(kind,*arg,**keywords):
+#     print "================"
+#     print arg
+#     print "================"
+#     print keywords
+
+# cheeseShop("Limburger", "It's very runny, sir.",
+#            "It's really very, VERY runny, sir.",
+#            shopkeeper='Michael Palin',
+#            client="John Cleese",
+#            sketch="Cheese Shop Sketch")
+
+
+#keyword arguments
+# def test(voltage,action):
+#     print "voltage::",voltage
+#     print "action::",action
+
+# test(action='take',voltage=10)
+
+
+# def parrot(voltage,state = 'a stiff',action = 'voom',type = 'Norwegian Blue'):
+#     print "----This parror wouldn't",action
+#     print "voltage====",voltage
+
+# parrot(voltage="10")
+
+
+
+# def test(a,myList = None):
+#     if myList is None:
+#         myList = []
+#     myList.append(a)
+#     return myList     
+    
+# #print test(1)
+# print test(2)        
 
 
 # def test(a,myList = None):

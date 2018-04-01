@@ -1,8 +1,57 @@
 
+# from math import pi
+# print [str(round(pi,x)) for x in range(10)]
 
-def sum(seq):
-    return reduce(lambda x,y:x+y,seq,0)
-print sum([1,2,3])
+# print str([1,2,3,4])
+
+
+# from math import pi
+# print [str(round(pi,i)) for i in range(1,6)]
+
+
+#amazing one liners
+
+# print [(x,y) for x in range(5) for y in range(10) if x!=y]
+# #equivalence
+
+# coms = []
+# for x in range(5):
+#     for y in range(10):
+#         if x!=y:
+#             coms.append((x,y))
+
+
+# print coms
+
+#print [(x,y) for x in [1,2,3] for y in [3,4,5] if x!=y]
+
+# _ = [(x,y) for x in [1,2] for y in [1,4] if x!=y]
+
+# print _[0][1]
+
+
+# print [x**2 for x in range(0,11)]
+
+#squares = map(lambda x:x**2,range(11))
+#print squares
+
+
+# squares = []
+# for x in range(0,11):
+#     squares.append(x**2)
+# print squares
+
+#print [x**2 for x in range(11)]
+
+
+
+
+# print sum([1,2,3,4,5,6],10)
+
+
+# def sum(seq):
+#     return reduce(lambda x,y:x+y,seq,0)
+# print sum([1,2,3])
 
 
 

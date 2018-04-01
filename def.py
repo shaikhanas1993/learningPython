@@ -5,16 +5,29 @@
     *name must appear before **name
     lambda's are syntactic sugar for inner functions
 """
+
+def test():
+    """\
+    the first line
+
+    this is paragraph
+    """
+print test.__doc__
+
+
+
 # def mySorter(x = None):
 #     print x[2]
 #     return x
 
-def mysort(x):
-    # print x
-    return x[1]
-pairs = [(1,'one'),(2,'two'),(3,'three'),(4,'four')]
-pairs.sort(key=lambda x:x[1])
-print pairs
+# def mysort(x):
+#     # print x
+#     return x[1]
+# pairs = [(1,'one'),(2,'two'),(3,'three'),(4,'four')]
+# pairs.sort(key=lambda x:x[1])
+# print pairs
+
+
 
   
     

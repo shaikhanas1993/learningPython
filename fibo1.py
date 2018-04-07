@@ -13,4 +13,11 @@ def fib2(n):
         result.append(b)
         a,b = b,a+b
     return result
-    
+
+def printHello():
+    print "hello world!"
+
+if __name__ == "__main__":
+    import sys
+    print sys.argv[1]
+    printHello()

@@ -1,3 +1,15 @@
+# import fibo1 as fibonacci
+
+# fibonacci.fib(100)
+
+from fibo1 import fib as fibonacci
+
+fibonacci(100)
+
+
+# from fibo1 import *
+
+# fib(100)
 
 
 # import fibo

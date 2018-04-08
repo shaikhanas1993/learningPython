@@ -1,10 +1,31 @@
+import sys
+sys.path.append('jt')
+from jt import fibo
+#print fibo.fib(10)
+
+print dir(fibo) 
+
+# import os
+# print os.environ('PYTHONPATH')
+# try:
+#     user_paths = os.environ['PYTHONPATH'].split(os.pathsep)
+# except KeyError:
+#     user_paths = []
+
+#print user_paths
+# from mod  import addTwoNumbers as add
+
+# print add(10,11)
+# from spam import isSpam
+# print isSpam(True)
+
 # import fibo1 as fibonacci
 
 # fibonacci.fib(100)
 
-from fibo1 import fib as fibonacci
+# from fibo1 import fib as fibonacci
 
-fibonacci(100)
+# fibonacci(100)
 
 
 # from fibo1 import *

@@ -1,0 +1,13 @@
+sound :------------>Package
+      __init__.py ---->init package
+      Filters:-------->Package
+             __init__.py -------->Package Init
+             mix.py  >>> module 
+             echo.py >>> module  
+      Formats:-------->Package
+             __init__.py
+             wiff.py
+             aiff.py       
+      Effects:-------->package
+             __init__.py
+             echo.py 

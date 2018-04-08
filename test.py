@@ -1,9 +1,23 @@
 import sys
-sys.path.append('jt')
-from jt import fibo
-#print fibo.fib(10)
+# sys.path.append('sound')
 
-print dir(fibo) 
+# from sound.effects import echo 
+# echo.echo()
+
+# from sound.filters import echo
+# echo.echo(
+# )
+
+# from sound.effects import *
+# #reverse.echo()
+# echo.echo()
+
+# import sys
+# sys.path.append('jt')
+# from jt import fibo
+# #print fibo.fib(10)
+
+# print dir(fibo) 
 
 # import os
 # print os.environ('PYTHONPATH')

@@ -1,3 +1,23 @@
+
+
+
+
+
+
+
+# def div(x):
+#     x = x/0
+
+# try:
+#     div(10)
+# except ZeroDivisionError as e:
+#     print e
+
+
+
+
+
+
 # import sys
 # for arg in sys.argv[1:]:
 #     print arg
@@ -18,9 +38,14 @@
 #     print x
 
 
-try:
-    raise Exception('spam','eggs')
-except Exception as inst:
-    print type(inst.args)
-    print inst.args[0]
+# try:
+#     raise Exception('spam','eggs')
+# except Exception as inst:
+#     print type(inst.args)
+#     print inst.args[0]
+
+# try:
+#     raise Exception('spam','eggs')
+# except Exception as e:
+#     print type(e.__str__())
 

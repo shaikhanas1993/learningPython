@@ -17,3 +17,5 @@ e.getTricks('bark')
 
 print(d.tricks)
 print(e.tricks)
+
+print(d.__class__)
